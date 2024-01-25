@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5F3DC0AB-C6B1-4F22-83CC-F8DB800B1755}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Aplicacion", "Aplicacion", "{27472439-2728-41DF-B4B7-E2BED020717A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WDeuxShop", "src\Aplicacion\WDeuxShop\WDeuxShop.csproj", "{0DB07A0D-A946-4D1A-B581-9B70E962D153}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DB07A0D-A946-4D1A-B581-9B70E962D153}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DB07A0D-A946-4D1A-B581-9B70E962D153}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DB07A0D-A946-4D1A-B581-9B70E962D153}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DB07A0D-A946-4D1A-B581-9B70E962D153}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{27472439-2728-41DF-B4B7-E2BED020717A} = {5F3DC0AB-C6B1-4F22-83CC-F8DB800B1755}
+		{0DB07A0D-A946-4D1A-B581-9B70E962D153} = {27472439-2728-41DF-B4B7-E2BED020717A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B6DEDA3D-325A-4AA6-B234-2BAAA1176F40}
+	EndGlobalSection
+EndGlobal
